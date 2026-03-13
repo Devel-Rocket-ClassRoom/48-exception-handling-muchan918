@@ -1,5 +1,12 @@
 using System;
 using System.Collections.Generic;
 
-// README.md를 읽고 코드를 작성하세요.
-Console.WriteLine("코드를 작성하세요.");
+try
+{
+    int[] arr = new int[2];
+    arr[100] = 1234;
+}
+catch
+{
+    Console.WriteLine("에러가 발생했습니다.");
+}
